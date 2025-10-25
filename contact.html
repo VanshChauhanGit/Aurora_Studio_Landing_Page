@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Aurora Studio</title>
+    <meta
+      name="description"
+      content="Get in touch with the Aurora Studio team. Send us a message or find our office."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://placehold.co/32x32/0a4d68/fefefe?text=AS"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-to-content">Skip to Main Content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-sun"></i>
+          Aurora Studio
+        </a>
+
+        <!-- Mobile Nav Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label"
+          ><i class="fa-solid fa-bars" aria-hidden="true"></i
+          ><i class="fa-solid fa-xmark" aria-hidden="true"></i
+          ><span class="visually-hidden">Menu</span></label
+        >
+
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+              <a href="contact.html" class="active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- Page Header -->
+      <header class="page-header">
+        <div class="container">
+          <h1>Get in Touch</h1>
+        </div>
+      </header>
+
+      <!-- Contact Layout -->
+      <div class="contact-layout container">
+        <!-- Contact Form -->
+        <section class="contact-form">
+          <h2>Send Us a Message</h2>
+          <p>We'd love to hear from you. Fill out the form below.</p>
+          <form action="#">
+            <!-- Name -->
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                required
+                autocomplete="name"
+              />
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="user_email"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <!-- Subject -->
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="user_subject" required>
+                <option value="" disabled selected>Please select one</option>
+                <option value="general">General Inquiry</option>
+                <option value="project">New Project</option>
+                <option value="support">Support</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <!-- Message -->
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="user_message"
+                required
+                minlength="10"
+              ></textarea>
+            </div>
+            <!-- Submit -->
+            <div class="form-group">
+              <button type="submit" class="btn btn--primary">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <!-- Contact Info & Map -->
+        <aside class="contact-info">
+          <h3>Contact Information</h3>
+          <p>
+            <i class="fa-solid fa-location-dot icon"></i>
+            123 Creative Way, New Delhi, India
+          </p>
+          <p>
+            <i class="fa-solid fa-phone icon"></i>
+            <a href="tel:+910123456789">+91 012345789</a>
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope icon"></i>
+            <a href="mailto:hello@aurora.studio">hello@aurora.studio</a>
+          </p>
+
+          <h3>Find Us</h3>
+          <div class="map-placeholder">
+            <p>
+              <i class="fa-solid fa-map-location-dot"></i><br />
+              Embedded Map Placeholder
+            </p>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <nav class="footer-nav">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="footer-credits">
+          <p>&copy; 2025 Aurora Studio. All rights reserved.</p>
+          <p>
+            <small
+              >Placeholder images from
+              <a
+                href="https://placehold.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                >placehold.co</a
+              ></small
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

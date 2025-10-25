@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Studio | Creative Digital Agency</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://placehold.co/32x32/0a4d68/fefefe?text=AS"
+    />
+
+    <meta
+      name="description"
+      content="Aurora Studio is a full-service creative digital agency specializing in web design, branding, and marketing."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-to-content">Skip to Main Content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-sun"></i>
+          Aurora Studio
+        </a>
+
+        <!-- Mobile Nav Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label"
+          ><i class="fa-solid fa-bars" aria-hidden="true"></i
+          ><i class="fa-solid fa-xmark" aria-hidden="true"></i
+          ><span class="visually-hidden">Menu</span></label
+        >
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1>We Build Bright Ideas</h1>
+            <p class="hero__subheading">
+              Creative digital solutions that illuminate your brand and inspire
+              your audience.
+            </p>
+            <a href="about.html" class="btn btn--primary"
+              >Learn More About Us</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-overview">
+        <div class="container">
+          <h2 class="section-heading">Our Services</h2>
+          <div class="services-grid">
+            <!-- Service 1 -->
+            <article class="service-card">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Crafting beautiful, intuitive, and responsive websites that
+                engage your visitors and convert them into customers.
+              </p>
+            </article>
+            <!-- Service 2 -->
+            <article class="service-card">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+              <h3>Branding</h3>
+              <p>
+                From logo design to complete brand identity, we help you tell a
+                compelling story that resonates with your audience.
+              </p>
+            </article>
+            <!-- Service 3 -->
+            <article class="service-card">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <h3>Digital Marketing</h3>
+              <p>
+                Strategic SEO, content marketing, and social media campaigns
+                that drive traffic, build loyalty, and grow your business.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Image Gallery Section -->
+      <section class="gallery-section">
+        <div class="container">
+          <h2 class="section-heading">Our Work</h2>
+          <div class="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <a href="#img1">
+              <img
+                src="https://placehold.co/400x400/0a4d68/fefefe?text=Project+1"
+                alt="Placeholder for Project 1"
+              />
+            </a>
+            <!-- Gallery Item 2 -->
+            <a href="#img2">
+              <img
+                src="https://placehold.co/400x400/088395/fefefe?text=Project+2"
+                alt="Placeholder for Project 2"
+              />
+            </a>
+            <!-- Gallery Item 3 -->
+            <a href="#img3">
+              <img
+                src="https://placehold.co/400x400/f5a623/222831?text=Project+3"
+                alt="Placeholder for Project 3"
+              />
+            </a>
+            <!-- Gallery Item 4 -->
+            <a href="#img4">
+              <img
+                src="https://placehold.co/400x400/222831/fefefe?text=Project+4"
+                alt="Placeholder for Project 4"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lightbox Markup -->
+      <!-- 1 -->
+      <a href="#_" class="lightbox" id="img1">
+        <span class="lightbox__content">
+          <img
+            src="https://placehold.co/800x600/0a4d68/fefefe?text=Project+1+Large"
+            class="lightbox__image"
+            alt="Project 1 Large View"
+          />
+        </span>
+      </a>
+      <!-- 2 -->
+      <a href="#_" class="lightbox" id="img2">
+        <span class="lightbox__content">
+          <img
+            src="https://placehold.co/800x600/088395/fefefe?text=Project+2+Large"
+            class="lightbox__image"
+            alt="Large view of Project 2"
+          />
+        </span>
+      </a>
+      <!-- 3 -->
+      <a href="#_" class="lightbox" id="img3">
+        <span class="lightbox__content">
+          <img
+            src="https://placehold.co/800x600/f5a623/222831?text=Project+3+Large"
+            class="lightbox__image"
+            alt="Large view of Project 3"
+          />
+        </span>
+      </a>
+      <!-- 4 -->
+      <a href="#_" class="lightbox" id="img4">
+        <span class="lightbox__content">
+          <img
+            src="https://placehold.co/800x600/222831/fefefe?text=Project+4+Large"
+            class="lightbox__image"
+            alt="Large view of Project 4"
+          />
+        </span>
+      </a>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <nav class="footer-nav">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="footer-credits">
+          <p>&copy; 2025 Aurora Studio. All rights reserved.</p>
+          <p>
+            <small
+              >Placeholder images from
+              <a
+                href="https://placehold.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                >placehold.co</a
+              ></small
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
